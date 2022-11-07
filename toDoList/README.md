@@ -1,29 +1,13 @@
-# toDoList
+# vue-toDoList
 
-This template should help get you started developing with Vue 3 in Vite.
+經典項目『to-do-list』，使用 Vue3 開發，在這次開發過程中學習到 composition api、Vue Router、Pinia、vue-loading-overlay 的基礎使用方法。
 
-## Recommended IDE Setup
+## 安裝方法
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## 實際演示
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
