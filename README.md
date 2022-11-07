@@ -1,17 +1,14 @@
 # vue-toDoList
 
-經典項目『to-do-list』，使用 Vue3 開發，在這次開發過程中學習到 composition api、Vue Router、Pinia、vue-loading-overlay 的基礎使用方法。
+經典項目『to-do-list』，可以新增、刪除、修改待辦事項，並且能依照"完成"與"未完成"區分事項。。
 
 ## 安裝方法
 
-```bash
-cd vue-toDoList
-```
 
 ```bash
 npm install
 ```
 
-## 實際演示
+## 學習技術
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+使用Vue3開發，學習到 composition api、Vue Router、Pinia、vue-loading-overlay 的基礎使用方法。
