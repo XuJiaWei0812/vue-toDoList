@@ -5,6 +5,10 @@
 ## 安裝方法
 
 ```bash
+cd vue-toDoList
+```
+
+```bash
 npm install
 ```
 
