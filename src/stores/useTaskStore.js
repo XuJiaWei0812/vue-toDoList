@@ -29,6 +29,14 @@ export const useTaskStore = defineStore('task', () => {
         content = "";
         $("#exampleModal").modal("hide");
         updateTaskCount()
+        Swal.fire({
+          icon: "success",
+          title: "新增成功",
+          text: "您已經成功新增事項",
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: '確定',
+        })
       }
     });
   };
@@ -46,7 +54,14 @@ export const useTaskStore = defineStore('task', () => {
       if (result.isConfirmed) {
         task.value.splice(id, 1);
         updateTaskCount()
-
+        Swal.fire({
+          title: '刪除成功',
+          text: '待辦事項已被刪除',
+          icon: 'error',
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: '確定',
+        })
       }
     });
   }
@@ -71,6 +86,14 @@ export const useTaskStore = defineStore('task', () => {
         task.value[id].taskState = taskState
         task.value[id].editState = 0
         updateTaskCount()
+        Swal.fire({
+          title: '編輯成功',
+          text: '待辦事項已被編輯',
+          icon: 'success',
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: '確定',
+        })
       }
     });
   }
